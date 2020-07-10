@@ -177,7 +177,7 @@
                             <p class="mb-0">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quas sequi excepturi sint! Et veritatis, earum hic error quasi incidunt.
                             </p>
-                            <footer class="blockquote-footer">John Doe From </footer>
+                            <footer class="blockquote-footer">Justion </footer>
                             <cite title="Company-1">Company 1</cite>
                         </blockquote>
                     </div>
@@ -186,6 +186,18 @@
         </div>
     </div>
 </section>
+
+<!-- footer -->
+
+<foote id="main-footer" class="text-center p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Copyright &copy; <span id="year"></span> Glozzom</p>
+            </div>
+        </div>
+    </div>
+</foote>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -210,6 +222,14 @@
     <script>
       // Get the current year for the copyright
       $('#year').text(new Date().getFullYear());
+
+    //   slick slider
+
+    $('.slider').slick({
+        infinite: true,
+        slideToshow:1,
+        slideToScroll:1
+    })
     </script>
   </body>
 </html>
